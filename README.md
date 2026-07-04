@@ -29,13 +29,13 @@ Built with **Python**, **Streamlit**, **Scikit-learn**, **spaCy**, and **XGBoost
 ### 🏠 Home Page
 
 <p align="center">
-  <img src="assets/home_page.png" alt="Home Page" width="900">
+  <img src="assets/home_page.png" alt="Home Page" width="300">
 </p>
 
 ### 🔍 Prediction Example
 
 <p align="center">
-  <img src="assets/prediction_result.png" alt="Prediction Result" width="900">
+  <img src="assets/prediction_result.png" alt="Prediction Result" width="100">
 </p>
 
 ---

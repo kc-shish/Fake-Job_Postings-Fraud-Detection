@@ -35,7 +35,7 @@ Built with **Python**, **Streamlit**, **Scikit-learn**, **spaCy**, and **XGBoost
 ### 🔍 Prediction Example
 
 <p align="center">
-  <img src="assets/prediction_result.png" alt="Prediction Result" width="100">
+  <img src="assets/prediction_result.png" alt="Prediction Result" width="500">
 </p>
 
 ---

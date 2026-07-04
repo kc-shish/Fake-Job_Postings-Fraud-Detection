@@ -8,7 +8,7 @@ Built with **Python**, **Streamlit**, **Scikit-learn**, **spaCy**, and **XGBoost
 
 ## 🚀 Live Demo
 
-🔗 **Streamlit App:** *(Add your deployment link here)*
+🔗 **Streamlit App:** https://fake-jobpostings-fraud-detection-kc-shish.streamlit.app/
 
 ---
 
@@ -26,17 +26,96 @@ Built with **Python**, **Streamlit**, **Scikit-learn**, **spaCy**, and **XGBoost
 
 ## 🖥️ Application Preview
 
-### Home Page
+### 🏠 Home Page
 
-*(Add Screenshot)*
+<p align="center">
+  <img src="assets/home_page.png" alt="Home Page" width="900">
+</p>
 
-### Prediction Example
+### 🔍 Prediction Example
 
-*(Add Screenshot)*
+<p align="center">
+  <img src="assets/prediction_result.png" alt="Prediction Result" width="900">
+</p>
 
 ---
 
 ## 🧠 Machine Learning Pipeline
+
+### 📊 Data Preprocessing
+
+- Removed duplicate job postings
+- Handled missing values
+- Cleaned textual data
+- Removed HTML tags
+- Removed URLs and email addresses
+- Removed numbers and special characters
+- Converted text to lowercase
+- Tokenization and Lemmatization using **spaCy**
+- Removed stop words
+- Combined multiple text fields into a single corpus
+
+### ⚙️ Feature Engineering
+
+- Count Vectorization (Bag of Words)
+- One-Hot Encoding for categorical features
+- Binary encoding for metadata flags
+- Sparse feature matrix generation
+
+### 🤖 Machine Learning Model
+
+- **Algorithm:** XGBoost Classifier
+- **Text Representation:** CountVectorizer
+- **Model Serialization:** Joblib
+
+### 🔄 Prediction Workflow
+
+```text
+User Input
+     │
+     ▼
+Text Cleaning & Preprocessing
+     │
+     ▼
+Count Vectorizer
+     │
+     ▼
+One-Hot Encoding
+     │
+     ▼
+Feature Alignment
+     │
+     ▼
+XGBoost Classifier
+     │
+     ▼
+Fraud Probability
+     │
+     ▼
+Legitimate / Fraudulent Prediction
+```
+
+### 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python |
+| Machine Learning | Scikit-learn, XGBoost |
+| NLP | spaCy, CountVectorizer |
+| Data Processing | Pandas, NumPy, SciPy |
+| Web Framework | Streamlit |
+| Model Persistence | Joblib |
+| Version Control | Git, GitHub |
+
+### 📈 Model Features
+
+- ✅ Real-time fraud detection
+- ✅ NLP-based text preprocessing
+- ✅ Fraud probability prediction
+- ✅ Modern Streamlit interface
+- ✅ Fast inference
+- ✅ Recruiter-friendly UI
+- ✅ GitHub & Streamlit Cloud deployment
 
 ### Data Preprocessing
 
